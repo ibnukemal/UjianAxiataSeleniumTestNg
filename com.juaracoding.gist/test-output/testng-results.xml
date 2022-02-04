@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-04T12:47:02 WIB" name="Default suite" finished-at="2022-02-04T12:47:19 WIB" duration-ms="16214">
+    <groups>
+    </groups>
+    <test started-at="2022-02-04T12:47:02 WIB" name="Default test" finished-at="2022-02-04T12:47:19 WIB" duration-ms="16214">
+      <class name="com.juaracoding.gist.glue.StepDefinition">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:02 WIB" name="springTestContextBeforeTestClass" finished-at="2022-02-04T12:47:02 WIB" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:02 WIB" name="springTestContextPrepareTestInstance" finished-at="2022-02-04T12:47:03 WIB" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:03 WIB" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T12:47:03 WIB" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.juaracoding.gist.glue.StepDefinition.LoginGist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="LoginGist()[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:03 WIB" name="LoginGist" finished-at="2022-02-04T12:47:14 WIB" duration-ms="11343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginGist -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:15 WIB" name="springTestContextAfterTestMethod" finished-at="2022-02-04T12:47:15 WIB" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.juaracoding.gist.glue.StepDefinition.LoginGist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:15 WIB" name="springTestContextBeforeTestMethod" finished-at="2022-02-04T12:47:15 WIB" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.juaracoding.gist.glue.StepDefinition.CreateGist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="CreateGist()[pri:1, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:15 WIB" name="CreateGist" finished-at="2022-02-04T12:47:19 WIB" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateGist -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:19 WIB" name="springTestContextAfterTestMethod" finished-at="2022-02-04T12:47:19 WIB" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.juaracoding.gist.glue.StepDefinition.CreateGist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.juaracoding.gist.glue.StepDefinition@7d94beb9]" started-at="2022-02-04T12:47:19 WIB" name="springTestContextAfterTestClass" finished-at="2022-02-04T12:47:19 WIB" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.juaracoding.gist.glue.StepDefinition -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
